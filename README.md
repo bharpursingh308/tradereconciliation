@@ -1,4 +1,20 @@
-﻿2. Open the solution file (`.sln`) in Visual Studio 2026.
+﻿# TradeReconciliationTool
+A lightweight Windows Forms utility (VB.NET) for importing, viewing and reconciling trade exceptions stored in an SQLite database. Designed for small teams or solo use — simple UI, minimal dependencies, and testable data access.
+
+## Key features
+- Browse exceptions stored in a local SQLite database
+- Filter by status and search text
+- Resolve exceptions and record an audit actor/notes
+- Small, well-separated codebase for easy maintenance and testing
+
+## Prerequisites
+- Visual Studio 2026 with the .NET desktop development workload
+- NuGet package restore enabled (__Tools > NuGet Package Manager > Restore NuGet Packages__)
+- `System.Data.SQLite` (restored from NuGet by the solution)
+
+## Quick start (Visual Studio)
+1. Clone the repository:
+1. 2. Open the solution file (`.sln`) in Visual Studio 2026.
 3. Restore NuGet packages: right-click the solution → `Restore NuGet Packages` or use __Tools > NuGet Package Manager__.
 4. Build: __Build > Build Solution__.
 5. Run: __Debug > Start Debugging__ (F5) or __Start Without Debugging__ (Ctrl+F5).
@@ -33,4 +49,4 @@ Please follow the project `CONTRIBUTING.md`:
 Add a `LICENSE` at the repository root (MIT is recommended for permissive usage).
 
 ## Support
-Open an issue for bugs or feature requests. For contribution questions, see `CONTRIBUTING.md`.	
+Open an issue for bugs or feature requests. For contribution questions, see `CONTRIBUTING.md`.	# TradeReconciliationTool

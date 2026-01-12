@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Rider/IDE
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# Publish outputs
+publish/
+
+# Resx backups, local settings
+*.resx.resources
+*.local
